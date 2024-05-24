@@ -1,4 +1,4 @@
-package co.com.ludi.model.sportsCenter;
+package co.com.ludi.model.sportscenter;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

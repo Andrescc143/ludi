@@ -11,7 +11,8 @@ import java.util.function.Function;
 
 import static org.springframework.data.domain.Example.of;
 
-public abstract class AdapterOperations<E, D, I, R extends ReactiveCrudRepository<D, I> & ReactiveQueryByExampleExecutor<D>> {
+public abstract class AdapterOperations<E, D, I, R
+        extends ReactiveCrudRepository<D, I> & ReactiveQueryByExampleExecutor<D>> {
 
     protected R repository;
     protected ObjectMapper mapper;

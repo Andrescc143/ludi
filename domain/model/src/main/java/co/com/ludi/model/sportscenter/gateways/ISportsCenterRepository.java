@@ -1,6 +1,6 @@
-package co.com.ludi.model.sportsCenter.gateways;
+package co.com.ludi.model.sportscenter.gateways;
 
-import co.com.ludi.model.sportsCenter.SportsCenter;
+import co.com.ludi.model.sportscenter.SportsCenter;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
