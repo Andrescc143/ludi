@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 public class SaveFieldUseCase {
     private IFieldRepository fieldRepository;
 
-    public Mono<Field> saveField(Field field) {
+    public Mono<Field> save(Field field) {
         return this.fieldRepository.save(field);
     }
 }

@@ -10,11 +10,11 @@ import reactor.core.publisher.Mono;
 public class GetFieldUseCase {
     private final IFieldRepository fieldRepository;
 
-    public Mono<Field> findFieldById(String id) {
+    public Mono<Field> findById(String id) {
         return this.fieldRepository.findById(id);
     }
 
-    public Flux<Field> findAllFields() {
+    public Flux<Field> findAll() {
         return this.fieldRepository.findAll();
     }
 }

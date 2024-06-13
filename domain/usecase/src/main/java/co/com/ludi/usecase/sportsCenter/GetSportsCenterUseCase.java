@@ -6,9 +6,9 @@ import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RequiredArgsConstructor
+
 public class GetSportsCenterUseCase {
-    private final ISportsCenterRepository sportsCenterRepository;
+    /*private final ISportsCenterRepository sportsCenterRepository;
 
     public Mono<SportsCenter> findSportsCenterById(String id) {
         return this.sportsCenterRepository.findById(id);
@@ -16,4 +16,6 @@ public class GetSportsCenterUseCase {
     public Flux<SportsCenter> findAllSportsCenters() {
         return this.sportsCenterRepository.findAll();
     }
+
+     */
 }

@@ -42,6 +42,10 @@ subprojects {
         }
     }
 
+    tasks.withType(JavaCompile).configureEach {
+        options.compilerArgs.add("-parameters")
+    }
+
     test.finalizedBy(project.tasks.jacocoTestReport)
 
     jacocoTestReport {

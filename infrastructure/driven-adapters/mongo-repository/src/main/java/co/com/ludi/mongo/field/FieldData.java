@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Builder(toBuilder = true)
-@Document(collection = "TechnicalEvent")
+@Document(collection = "Field")
 @NoArgsConstructor
 @AllArgsConstructor
 public class FieldData {
